@@ -1,0 +1,50 @@
+{
+  "pauseTimer": {
+    "pausedWallMs": 44038,
+    "before": "前往西岸浮台 · 互动乘船过河 · 24 秒",
+    "after": "前往西岸浮台 · 互动乘船过河 · 24 秒"
+  },
+  "waterTimeout": true,
+  "eastLever": true,
+  "waterComplete": true,
+  "mineRest": {
+    "before": {
+      "health": "生命 5 / 5",
+      "objective": "安全灯火 · 稍作休息，前方继续逃亡",
+      "timer": "崩塌 02:37"
+    },
+    "after": {
+      "health": "生命 5 / 5",
+      "objective": "安全灯火 · 稍作休息，前方继续逃亡",
+      "timer": "崩塌 02:37"
+    }
+  },
+  "mineRetry": true,
+  "mineComplete": true,
+  "boss": {
+    "phase1": true,
+    "phase2Touch": true,
+    "phase3TouchInterrupt": true,
+    "ending": true,
+    "finalHealth": 1,
+    "wickCount": 5
+  },
+  "touchAfterRotation": {
+    "joystickMoved": true,
+    "dashPressed": true,
+    "lampPressed": true
+  },
+  "finalBuild": {
+    "bossAllPhases": true,
+    "phase3ChargeDodgedWithoutDamage": true,
+    "finalHealth": 5,
+    "ending": true,
+    "saveReloadFiveWicks": true,
+    "allLevelsUnlocked": true,
+    "settingsPersistence": {
+      "volume": 42,
+      "fontSize": 110,
+      "restoredAfterTest": true
+    }
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "screen": "settings",
+    "width": 1280,
+    "height": 720,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 1920,
+    "height": 1080,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 1024,
+    "height": 768,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 768,
+    "height": 1024,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 390,
+    "height": 844,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 844,
+    "height": 390,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "settings",
+    "width": 568,
+    "height": 320,
+    "cardInViewport": true,
+    "cardScrollable": true,
+    "horizontalOverflow": false,
+    "minControlHeight": 48
+  },
+  {
+    "screen": "game",
+    "width": 1280,
+    "height": 720,
+    "canvas": {
+      "height": 720,
+      "width": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 48,
+        "label": "使用雾灯",
+        "width": 48,
+        "x": 1162,
+        "y": 12
+      },
+      {
+        "height": 48,
+        "label": "暂停",
+        "width": 48,
+        "x": 1218,
+        "y": 12
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 61,
+      "width": 1252,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 1920,
+    "height": 1080,
+    "canvas": {
+      "height": 1080,
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 48,
+        "label": "使用雾灯",
+        "width": 48,
+        "x": 1802,
+        "y": 12
+      },
+      {
+        "height": 48,
+        "label": "暂停",
+        "width": 48,
+        "x": 1858,
+        "y": 12
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 61,
+      "width": 1892,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 1024,
+    "height": 768,
+    "canvas": {
+      "height": 768,
+      "width": 1024,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 48,
+        "label": "使用雾灯",
+        "width": 48,
+        "x": 906,
+        "y": 12
+      },
+      {
+        "height": 48,
+        "label": "暂停",
+        "width": 48,
+        "x": 962,
+        "y": 12
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 61,
+      "width": 996,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 768,
+    "height": 1024,
+    "canvas": {
+      "height": 1024,
+      "width": 768,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 62,
+        "label": "冲刺",
+        "width": 62,
+        "x": 620,
+        "y": 878
+      },
+      {
+        "height": 62,
+        "label": "使用雾灯",
+        "width": 62,
+        "x": 690,
+        "y": 878
+      },
+      {
+        "height": 62,
+        "label": "互动",
+        "width": 62,
+        "x": 620,
+        "y": 948
+      },
+      {
+        "height": 62,
+        "label": "暂停",
+        "width": 62,
+        "x": 690,
+        "y": 948
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 55,
+      "width": 740,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 390,
+    "height": 844,
+    "canvas": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 62,
+        "label": "冲刺",
+        "width": 62,
+        "x": 242,
+        "y": 698
+      },
+      {
+        "height": 62,
+        "label": "使用雾灯",
+        "width": 62,
+        "x": 312,
+        "y": 698
+      },
+      {
+        "height": 62,
+        "label": "互动",
+        "width": 62,
+        "x": 242,
+        "y": 768
+      },
+      {
+        "height": 62,
+        "label": "暂停",
+        "width": 62,
+        "x": 312,
+        "y": 768
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 60,
+      "width": 362,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 844,
+    "height": 390,
+    "canvas": {
+      "height": 390,
+      "width": 844,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 56,
+        "label": "冲刺",
+        "width": 56,
+        "x": 708,
+        "y": 262
+      },
+      {
+        "height": 56,
+        "label": "使用雾灯",
+        "width": 56,
+        "x": 772,
+        "y": 262
+      },
+      {
+        "height": 56,
+        "label": "互动",
+        "width": 56,
+        "x": 708,
+        "y": 326
+      },
+      {
+        "height": 56,
+        "label": "暂停",
+        "width": 56,
+        "x": 772,
+        "y": 326
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 55,
+      "width": 816,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "game",
+    "width": 568,
+    "height": 320,
+    "canvas": {
+      "height": 320,
+      "width": 568,
+      "x": 0,
+      "y": 0
+    },
+    "controls": [
+      {
+        "height": 56,
+        "label": "冲刺",
+        "width": 56,
+        "x": 432,
+        "y": 192
+      },
+      {
+        "height": 56,
+        "label": "使用雾灯",
+        "width": 56,
+        "x": 496,
+        "y": 192
+      },
+      {
+        "height": 56,
+        "label": "互动",
+        "width": 56,
+        "x": 432,
+        "y": 256
+      },
+      {
+        "height": 56,
+        "label": "暂停",
+        "width": 56,
+        "x": 496,
+        "y": 256
+      }
+    ],
+    "horizontalOverflow": false,
+    "hud": {
+      "height": 55,
+      "width": 540,
+      "x": 14,
+      "y": 12
+    }
+  },
+  {
+    "screen": "ending",
+    "width": 1280,
+    "height": 720,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 50
+  },
+  {
+    "screen": "ending",
+    "width": 1920,
+    "height": 1080,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 50
+  },
+  {
+    "screen": "ending",
+    "width": 1024,
+    "height": 768,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 50
+  },
+  {
+    "screen": "ending",
+    "width": 768,
+    "height": 1024,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 50
+  },
+  {
+    "screen": "ending",
+    "width": 390,
+    "height": 844,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 50
+  },
+  {
+    "screen": "ending",
+    "width": 844,
+    "height": 390,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 48
+  },
+  {
+    "screen": "ending",
+    "width": 568,
+    "height": 320,
+    "cardInViewport": true,
+    "cardScrollable": false,
+    "horizontalOverflow": false,
+    "minButtonHeight": 47.99998474121094
+  }
+]

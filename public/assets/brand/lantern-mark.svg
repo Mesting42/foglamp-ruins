@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="雾灯遗迹魔法雾灯徽记">
+  <defs>
+    <linearGradient id="tile" x1="64" y1="40" x2="448" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183B43"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="167" y1="156" x2="348" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE39A"/>
+      <stop offset=".48" stop-color="#E9B95F"/>
+      <stop offset="1" stop-color="#A96F37"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="197" y1="214" x2="315" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28545A"/>
+      <stop offset="1" stop-color="#102C35"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="0" cy="0" r="1" gradientTransform="matrix(0 79 -53 0 256 239)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C9"/>
+      <stop offset=".42" stop-color="#FFD77E"/>
+      <stop offset="1" stop-color="#EF9C49"/>
+    </radialGradient>
+    <filter id="glow" x="145" y="147" width="222" height="270" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect x="14" y="14" width="484" height="484" rx="126" fill="url(#tile)"/>
+  <rect x="17.5" y="17.5" width="477" height="477" rx="122.5" stroke="#E9BD6B" stroke-opacity=".72" stroke-width="7"/>
+  <circle cx="256" cy="256" r="192" stroke="#91C6B9" stroke-opacity=".18" stroke-width="3"/>
+  <circle cx="256" cy="256" r="162" stroke="#91C6B9" stroke-opacity=".33" stroke-width="3"/>
+  <g stroke="#F4CB78" stroke-linecap="round" stroke-width="8">
+    <path d="M256 52v27M256 433v27M52 256h27M433 256h27M112 112l19 19m266 266 19 19m0-304-19 19M131 381l-19 19" opacity=".66"/>
+  </g>
+  <g fill="#A8D5C7" opacity=".74">
+    <path d="M95 273c24-20 48-20 72 0-24 21-48 21-72 0Z"/>
+    <path d="M345 273c24-20 48-20 72 0-24 21-48 21-72 0Z"/>
+  </g>
+  <ellipse cx="256" cy="281" rx="81" ry="103" fill="#FFC968" opacity=".34" filter="url(#glow)"/>
+  <path d="M228 137a28 28 0 0 1 56 0v25h-56v-25Z" fill="#163640" stroke="url(#brass)" stroke-width="11"/>
+  <path d="M213 162h86v27h-86z" fill="#294B4E" stroke="url(#brass)" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m166 196 30-29h120l30 29-23 35v136H189V231l-23-35Z" fill="url(#glass)" stroke="url(#brass)" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M205 239h102v112H205z" fill="#0B232C" stroke="#A2D0BD" stroke-opacity=".46" stroke-width="5"/>
+  <path d="M222 324c0-27 15-54 34-77 19 23 34 50 34 77 0 20-15 35-34 35s-34-15-34-35Z" fill="url(#flame)"/>
+  <path d="M245 324c0-12 5-25 11-35 7 10 12 23 12 35 0 8-5 14-12 14s-11-6-11-14Z" fill="#FFF6D6" opacity=".96"/>
+  <path d="M181 379h150l-17 24h-116l-17-24Z" fill="#29454A" stroke="url(#brass)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M213 412h86" stroke="#E9BD6B" stroke-linecap="round" stroke-width="8" opacity=".78"/>
+</svg>

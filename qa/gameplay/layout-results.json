@@ -1,0 +1,464 @@
+[
+  {
+    "buttons": [
+      {
+        "height": 50,
+        "width": 467
+      },
+      {
+        "height": 50,
+        "width": 467
+      },
+      {
+        "height": 50,
+        "width": 467
+      },
+      {
+        "height": 50,
+        "width": 228.5
+      },
+      {
+        "height": 50,
+        "width": 228.5
+      },
+      {
+        "height": 50,
+        "width": 467
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 236
+      },
+      {
+        "height": 50,
+        "width": 236
+      },
+      {
+        "height": 50,
+        "width": 482
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 482
+      },
+      {
+        "height": 50,
+        "width": 236
+      },
+      {
+        "height": 50,
+        "width": 236
+      },
+      {
+        "height": 50,
+        "width": 482
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 50,
+        "width": 501.21875
+      },
+      {
+        "height": 50,
+        "width": 501.21875
+      },
+      {
+        "height": 50,
+        "width": 501.21875
+      },
+      {
+        "height": 50,
+        "width": 245.609375
+      },
+      {
+        "height": 50,
+        "width": 245.609375
+      },
+      {
+        "height": 50,
+        "width": 501.21875
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 50,
+        "width": 306
+      },
+      {
+        "height": 50,
+        "width": 306
+      },
+      {
+        "height": 50,
+        "width": 306
+      },
+      {
+        "height": 50,
+        "width": 148
+      },
+      {
+        "height": 50,
+        "width": 148
+      },
+      {
+        "height": 50,
+        "width": 306
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 371.5
+      },
+      {
+        "height": 48,
+        "width": 371.5
+      },
+      {
+        "height": 48,
+        "width": 371.5
+      },
+      {
+        "height": 50,
+        "width": 370.5
+      },
+      {
+        "height": 50,
+        "width": 370.5
+      },
+      {
+        "height": 48,
+        "width": 371.5
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      844,
+      390
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 233.5
+      },
+      {
+        "height": 48,
+        "width": 233.5
+      },
+      {
+        "height": 48,
+        "width": 233.5
+      },
+      {
+        "height": 50,
+        "width": 232.5
+      },
+      {
+        "height": 50,
+        "width": 232.5
+      },
+      {
+        "height": 48,
+        "width": 233.5
+      }
+    ],
+    "overflow": false,
+    "screen": "menu",
+    "viewport": [
+      568,
+      320
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 328.5
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 272.109375
+      },
+      {
+        "height": 48,
+        "width": 272.109375
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 253
+      },
+      {
+        "height": 48,
+        "width": 253
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 330.5
+      },
+      {
+        "height": 48,
+        "width": 330.5
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      844,
+      390
+    ]
+  },
+  {
+    "buttons": [
+      {
+        "height": 48,
+        "width": 54
+      },
+      {
+        "height": 48,
+        "width": 437
+      },
+      {
+        "height": 48,
+        "width": 437
+      },
+      {
+        "height": 48,
+        "width": 106
+      },
+      {
+        "height": 50,
+        "width": 98
+      }
+    ],
+    "cardFits": true,
+    "overflow": false,
+    "screen": "journal",
+    "scrollable": true,
+    "viewport": [
+      568,
+      320
+    ]
+  }
+]

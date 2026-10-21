@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "雾灯遗迹 · Foglamp Ruins",
+  "short_name": "雾灯遗迹",
+  "description": "携带魔法雾灯，深入被遗忘的遗迹，找回五枚灯芯，重新点亮灯塔。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#081a24",
+  "theme_color": "#081a24",
+  "icons": [
+    {
+      "src": "/assets/brand/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/brand/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

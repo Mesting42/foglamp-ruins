@@ -1,0 +1,47 @@
+[
+  {
+    "width": 1280,
+    "height": 720,
+    "bossBottom": 106,
+    "bossWidth": 380,
+    "overlap": false,
+    "toastTop": 148,
+    "toastVisible": true
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "bossBottom": 106,
+    "bossWidth": 380,
+    "overlap": false,
+    "toastTop": 148,
+    "toastVisible": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "bossBottom": 106,
+    "bossWidth": 304.1875,
+    "overlap": false,
+    "toastTop": 148,
+    "toastVisible": true
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "bossBottom": 106,
+    "bossWidth": 380,
+    "overlap": false,
+    "toastTop": 148,
+    "toastVisible": true
+  },
+  {
+    "width": 568,
+    "height": 320,
+    "bossBottom": 106,
+    "bossWidth": 380,
+    "overlap": false,
+    "toastTop": 148,
+    "toastVisible": true
+  }
+]

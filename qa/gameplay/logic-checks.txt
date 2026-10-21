@@ -1,0 +1,18 @@
+
+> mist-lantern-ruins@1.0.0 check:gameplay
+> node scripts/check-gameplay.mjs
+
+PASS dash retains direction after release; diagonal magnitude stays 420
+PASS wisp locks a visible impact point; escaping its 58px warning avoids damage
+PASS all three boss phases damage inside their warning geometry at 30/60/120Hz
+PASS early boss pulses rejected; gold warning opens a deterministic interrupt window
+PASS boss pulse has matching health outcome across frame rates
+PASS legacy v1 saves keep progression and receive additive defaults
+PASS authored collision walls avoid fixed quest objects and all five layouts build
+PASS grassland requires two separate lamp positions before the courtyard opens
+PASS forest wrong sequence resets; branch/moon/tide completes the gate
+PASS boat crossing re-enables physics and east-bank lever recovers an expired door
+PASS legacy checkpoints reopen every gate behind the saved spawn
+PASS mine safe beacons pause chase pressure and resume outside their zone
+PASS all authored levels retain a traversable central doorway and reachable quest objects
+13 logic checks passed. Browser physics and device performance are separate checks.

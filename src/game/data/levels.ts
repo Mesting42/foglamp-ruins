@@ -1,0 +1,136 @@
+import type { LevelDefinition } from './types';
+
+export const LEVELS: LevelDefinition[] = [
+  {
+    id: 'mist-grassland', name: '雾灯草原', subtitle: '遗迹入口 · 初遇微光',
+    objective: '点亮引路壁灯，找回第一枚灯芯', duration: '约 5 分钟',
+    palette: { floor: 0x647d58, wall: 0x3c5844, accent: 0xefbd65, fog: 0xa7d9ca },
+    start: { x: 140, y: 640 }, exitX: 4020, gateXs: [760, 1780, 2960], checkpointXs: [1110, 2520],
+    enemies: [
+      { x: 1320, y: 610, type: 'moth', label: '雾蛾' },
+      { x: 2040, y: 790, type: 'wisp', label: '游魂' },
+      { x: 2640, y: 500, type: 'moth', label: '雾蛾' },
+    ],
+    collectibles: [
+      { id: 'grass-shard-a', x: 980, y: 420, kind: 'shard', label: '古老碎片' },
+      { id: 'wick-01', x: 3500, y: 600, kind: 'fragment', label: '第一枚灯芯' },
+      { id: 'grass-shard-b', x: 2260, y: 950, kind: 'shard', label: '古老碎片' },
+    ],
+    interactables: [
+      { id: 'grass-switch', x: 600, y: 520, kind: 'switch', label: '引路壁灯' },
+      { id: 'grass-chest', x: 1540, y: 390, kind: 'chest', label: '苔纹宝箱' },
+      { id: 'grass-guide', x: 1180, y: 850, kind: 'npc', label: '石刻旅人' },
+      { id: 'grass-beacon-north', x: 1470, y: 470, kind: 'rune', label: '北侧引光台 · 用雾灯点亮' },
+      { id: 'grass-beacon-south', x: 1480, y: 860, kind: 'rune', label: '南侧引光台 · 用雾灯点亮' },
+    ],
+    puzzleHint: '点亮引路壁灯后，寻找庭院南北两座引光台。靠近释放雾灯，让光流回石门。',
+    mapHeight: 1280,
+  },
+  {
+    id: 'echo-forest', name: '回声森林', subtitle: '迷雾深处 · 石语有序',
+    objective: '穿过迷雾小径，依次唤醒三枚符文', duration: '约 6 分钟',
+    palette: { floor: 0x3b5d49, wall: 0x213d35, accent: 0x8be0c9, fog: 0x8ccab0 },
+    start: { x: 140, y: 640 }, exitX: 4280, gateXs: [2360, 3240, 3900], checkpointXs: [1420, 2870],
+    enemies: [
+      { x: 680, y: 440, type: 'moth', label: '树影蛾' },
+      { x: 1540, y: 820, type: 'wisp', label: '林间游魂' },
+      { x: 2570, y: 520, type: 'sentinel', label: '苔甲守卫' },
+      { x: 3590, y: 830, type: 'moth', label: '树影蛾' },
+    ],
+    collectibles: [
+      { id: 'forest-shard-a', x: 510, y: 980, kind: 'shard', label: '古老碎片' },
+      { id: 'wick-02', x: 3770, y: 420, kind: 'fragment', label: '第二枚灯芯' },
+      { id: 'forest-shard-b', x: 3060, y: 970, kind: 'shard', label: '古老碎片' },
+    ],
+    interactables: [
+      { id: 'forest-rune-1', x: 1480, y: 460, kind: 'rune', label: '月纹符石' },
+      { id: 'forest-rune-2', x: 1200, y: 810, kind: 'rune', label: '枝纹符石' },
+      { id: 'forest-rune-3', x: 1830, y: 630, kind: 'rune', label: '潮纹符石' },
+      { id: 'forest-guide', x: 440, y: 730, kind: 'npc', label: '听风树灵' },
+      { id: 'forest-cache', x: 2820, y: 410, kind: 'chest', label: '根须宝匣' },
+    ],
+    puzzleHint: '林中石碑藏着三枚符文的次序。留意淡蓝的回声，用雾灯照见它。',
+    mapHeight: 1380,
+  },
+  {
+    id: 'sunken-ruins', name: '沉没遗迹', subtitle: '水下回廊 · 潮汐机关',
+    objective: '降下水位，踏上浮台并穿过限时门', duration: '约 6 分钟',
+    palette: { floor: 0x3a6170, wall: 0x204650, accent: 0x7ce4ea, fog: 0x8bd7dd },
+    start: { x: 140, y: 640 }, exitX: 4310, gateXs: [2600, 3350, 3900], checkpointXs: [1480, 2890],
+    enemies: [
+      { x: 630, y: 930, type: 'wisp', label: '水下游魂' },
+      { x: 1800, y: 450, type: 'moth', label: '潮汐蛾' },
+      { x: 2690, y: 870, type: 'sentinel', label: '珊瑚守卫' },
+      { x: 3700, y: 500, type: 'wisp', label: '水下游魂' },
+    ],
+    collectibles: [
+      { id: 'sunken-shard-a', x: 490, y: 390, kind: 'shard', label: '古老碎片' },
+      { id: 'wick-03', x: 3750, y: 950, kind: 'fragment', label: '第三枚灯芯' },
+      { id: 'sunken-shard-b', x: 3110, y: 390, kind: 'shard', label: '古老碎片' },
+    ],
+    interactables: [
+      { id: 'sunken-valve-1', x: 670, y: 610, kind: 'valve', label: '西侧潮阀' },
+      { id: 'sunken-valve-2', x: 1600, y: 700, kind: 'valve', label: '东侧潮阀' },
+      { id: 'sunken-platform', x: 2130, y: 640, kind: 'platform', label: '乘上潮汐浮台' },
+      { id: 'sunken-door-reset', x: 2510, y: 800, kind: 'switch', label: '东岸回流闸 · 重开限时门' },
+      { id: 'sunken-cache', x: 2900, y: 980, kind: 'chest', label: '海蚀宝箱' },
+      { id: 'sunken-guide', x: 390, y: 830, kind: 'npc', label: '沉睡的守门人' },
+    ],
+    puzzleHint: '两侧潮阀都转动后，浮台会靠岸。灯门只开启 24 秒，趁水位下降时快速通过。',
+    mapHeight: 1400,
+  },
+  {
+    id: 'old-mine', name: '旧矿井', subtitle: '坍塌通道 · 身后的轰鸣',
+    objective: '在矿井崩塌前抵达矿工升降梯', duration: '约 5 分钟',
+    palette: { floor: 0x65533b, wall: 0x39372f, accent: 0xec9e58, fog: 0xb4a284 },
+    start: { x: 140, y: 640 }, exitX: 4320, gateXs: [980, 2160, 3320], checkpointXs: [1450, 2870],
+    enemies: [
+      { x: 780, y: 520, type: 'sentinel', label: '矿坑守卫' },
+      { x: 1670, y: 820, type: 'moth', label: '煤灰蛾' },
+      { x: 2530, y: 500, type: 'wisp', label: '矿灯残影' },
+      { x: 3520, y: 850, type: 'sentinel', label: '矿坑守卫' },
+    ],
+    collectibles: [
+      { id: 'mine-shard-a', x: 530, y: 380, kind: 'shard', label: '古老碎片' },
+      { id: 'wick-04', x: 3810, y: 610, kind: 'fragment', label: '第四枚灯芯' },
+      { id: 'mine-shard-b', x: 3020, y: 1010, kind: 'shard', label: '古老碎片' },
+    ],
+    interactables: [
+      { id: 'mine-switch-1', x: 720, y: 920, kind: 'switch', label: '升降闸柄' },
+      { id: 'mine-switch-2', x: 1740, y: 930, kind: 'switch', label: '矿道支撑杆' },
+      { id: 'mine-cache', x: 1780, y: 370, kind: 'chest', label: '矿工储物柜' },
+      { id: 'mine-guide', x: 490, y: 770, kind: 'npc', label: '矿工留言' },
+    ],
+    puzzleHint: '闸柄和支撑杆能打开塌方路段。矿井开始震动后，追逐者不会停下；沿着灯标冲刺。',
+    mapHeight: 1320,
+    chase: true,
+  },
+  {
+    id: 'lighthouse-core', name: '灯塔核心', subtitle: '最后的灯焰 · 遗迹之心',
+    objective: '击败守塔者，安放第五枚灯芯', duration: '约 7 分钟',
+    palette: { floor: 0x655840, wall: 0x3b3634, accent: 0xf5ca71, fog: 0xa8c7bc },
+    start: { x: 140, y: 640 }, exitX: 4300, gateXs: [970, 2130, 3340], checkpointXs: [1430, 2880],
+    enemies: [
+      { x: 740, y: 470, type: 'moth', label: '灯火蛾' },
+      { x: 1650, y: 850, type: 'wisp', label: '失序光灵' },
+      { x: 2600, y: 470, type: 'sentinel', label: '灯塔侍卫' },
+    ],
+    collectibles: [
+      { id: 'core-shard-a', x: 520, y: 980, kind: 'shard', label: '古老碎片' },
+      { id: 'wick-05', x: 3500, y: 640, kind: 'fragment', label: '第五枚灯芯' },
+      { id: 'core-shard-b', x: 2950, y: 980, kind: 'shard', label: '古老碎片' },
+    ],
+    interactables: [
+      { id: 'core-switch', x: 680, y: 520, kind: 'switch', label: '外环引火台' },
+      { id: 'core-cache', x: 1720, y: 380, kind: 'chest', label: '守塔者的匣子' },
+      { id: 'core-guide', x: 450, y: 760, kind: 'npc', label: '灯塔铭文' },
+      { id: 'core-beacon-north', x: 1880, y: 490, kind: 'rune', label: '北侧回忆灯台 · 用雾灯点亮' },
+      { id: 'core-beacon-south', x: 1880, y: 870, kind: 'rune', label: '南侧回忆灯台 · 用雾灯点亮' },
+    ],
+    puzzleHint: '守塔者会依次唤起迷雾、环形火浪和冲锋。雾灯冲击波可打断它的蓄力，留意红色警示。',
+    mapHeight: 1380,
+    boss: true,
+  },
+];
+
+export const LEVEL_NAMES = LEVELS.map((level) => level.name);

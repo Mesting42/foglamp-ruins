@@ -1,0 +1,24 @@
+# Dependencies and generated production output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc.local
+
+# Local tooling and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Background preview service logs
+qa/preview-server*.log
+
+# Local visual regression captures (keep textual QA reports and results)
+qa/**/*.jpg
+qa/**/*.jpeg
+qa/**/*.png

@@ -1,0 +1,432 @@
+[
+  {
+    "buttonSizes": [],
+    "canvases": [
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        149.33334350585938,
+        149.33334350585938
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": null,
+    "touch": false,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "buttonSizes": [],
+    "canvases": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        224,
+        224
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": null,
+    "touch": false,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "buttonSizes": [],
+    "canvases": [
+      [
+        1024,
+        768
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        159.28887939453125,
+        159.28890991210938
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": null,
+    "touch": false,
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ]
+    ],
+    "canvases": [
+      [
+        768,
+        1024
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        119.46668243408205,
+        119.4666748046875
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      198.796875,
+      198.796875
+    ],
+    "touch": true,
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ]
+    ],
+    "canvases": [
+      [
+        360,
+        640
+      ],
+      [
+        360,
+        640
+      ],
+      [
+        58.23999786376953,
+        58.239990234375
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      172,
+      172
+    ],
+    "touch": true,
+    "viewport": [
+      360,
+      640
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        62,
+        62
+      ]
+    ],
+    "canvases": [
+      [
+        390,
+        844
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        73.85000610351562,
+        73.85000610351562
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      198.796875,
+      198.796875
+    ],
+    "touch": true,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ]
+    ],
+    "canvases": [
+      [
+        640,
+        360
+      ],
+      [
+        640,
+        360
+      ],
+      [
+        74.66667175292969,
+        74.66667175292969
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      112,
+      112
+    ],
+    "touch": true,
+    "viewport": [
+      640,
+      360
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ]
+    ],
+    "canvases": [
+      [
+        844,
+        390
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        80.88888549804688,
+        80.88888549804688
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      156.796875,
+      156.796875
+    ],
+    "touch": true,
+    "viewport": [
+      844,
+      390
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ]
+    ],
+    "canvases": [
+      [
+        915,
+        412
+      ],
+      [
+        915,
+        412
+      ],
+      [
+        85.45185089111328,
+        85.45184326171875
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      156.796875,
+      156.796875
+    ],
+    "touch": true,
+    "viewport": [
+      915,
+      412
+    ]
+  },
+  {
+    "buttonSizes": [
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        56,
+        56
+      ]
+    ],
+    "canvases": [
+      [
+        568,
+        320
+      ],
+      [
+        568,
+        320
+      ],
+      [
+        66.37036895751953,
+        66.37036895751953
+      ]
+    ],
+    "controlsFit": true,
+    "guideControlsOverlap": false,
+    "guideFits": true,
+    "horizontalOverflow": false,
+    "knobCentered": true,
+    "stickActionsOverlap": false,
+    "stickSize": [
+      112,
+      112
+    ],
+    "touch": true,
+    "viewport": [
+      568,
+      320
+    ]
+  }
+]

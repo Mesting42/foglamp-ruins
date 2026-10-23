@@ -81,7 +81,8 @@ export class SettingsManager {
     const ratio = this.current.pixelRatio === 'auto' ? Math.min(window.devicePixelRatio || 1, 2) : Number(this.current.pixelRatio);
     const pixelCap = this.current.quality === 'low' ? 1.1 : this.current.quality === 'medium' ? 1.5 : 2;
     if (this.game.renderer && 'resolution' in this.game.renderer) {
-      (this.game.renderer as Phaser.Renderer.WebGL.WebGLRenderer).resolution = Math.min(ratio, pixelCap);
+      // Retain the runtime guard: this extension is absent from Phaser's types.
+      (this.game.renderer as Phaser.Renderer.WebGL.WebGLRenderer & { resolution: number }).resolution = Math.min(ratio, pixelCap);
     }
     this.game.registry.set('renderResolution', Math.min(ratio, pixelCap));
     this.game.registry.set('settings', this.value);

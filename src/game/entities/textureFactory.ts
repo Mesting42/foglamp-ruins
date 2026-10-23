@@ -2,7 +2,8 @@ import Phaser from 'phaser';
 
 export function ensureTextures(scene: Phaser.Scene): void {
   if (!scene.textures.exists('hero')) {
-    const g = scene.make.graphics({ x: 0, y: 0, add: false });
+    // Phaser 3.90 accepts scene insertion as the factory's second argument.
+    const g = scene.make.graphics({ x: 0, y: 0 }, false);
     g.fillStyle(0x142a2d); g.fillCircle(22, 27, 18);
     g.fillStyle(0x9bc5b6); g.fillEllipse(22, 24, 25, 29);
     g.fillStyle(0x243e3a); g.fillRoundedRect(12, 29, 20, 20, 5);
@@ -17,7 +18,7 @@ export function ensureTextures(scene: Phaser.Scene): void {
   ];
   specs.forEach(([key, core, edge]) => {
     if (scene.textures.exists(key)) return;
-    const g = scene.make.graphics({ x: 0, y: 0, add: false });
+    const g = scene.make.graphics({ x: 0, y: 0 }, false);
     if (key === 'enemy-moth') {
       g.fillStyle(edge); g.fillEllipse(21, 19, 38, 22); g.fillStyle(core); g.fillEllipse(21, 19, 15, 24);
       g.fillStyle(0xf3bd62); g.fillCircle(18, 15, 2); g.fillCircle(24, 15, 2);

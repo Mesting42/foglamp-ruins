@@ -16,7 +16,8 @@ export class PerformanceManager {
     scene.registry.set('dynamicScaleEnabled', settings.dynamicScale);
     scene.registry.set('dynamicScaleMax', maxResolution);
     if (scene.game.renderer && 'resolution' in scene.game.renderer) {
-      const renderer = scene.game.renderer as Phaser.Renderer.WebGL.WebGLRenderer;
+      // The runtime guard above verifies the optional renderer extension.
+      const renderer = scene.game.renderer as Phaser.Renderer.WebGL.WebGLRenderer & { resolution: number };
       if (settings.dynamicScale || !Number.isFinite(renderer.resolution)) renderer.resolution = maxResolution;
       if (!this.adaptiveTimers.has(scene)) {
         const timer = scene.time.addEvent({

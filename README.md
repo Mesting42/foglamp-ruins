@@ -82,3 +82,13 @@
 
 Phaser 采用 Scale.RESIZE。渲染器使用 Phaser.AUTO，有 WebGL 时优先 WebGL，不可用时自动降级 Canvas；Three.js 环境渲染器初始化失败时改用本地 Canvas 2D 场景绘制。每关只创建一个 Three.js 环境渲染器，角色模型另用一个透明画布；其他角色与收集物的三维网格在预载时烘焙为纹理，避免给每个对象创建 WebGL 上下文。边界、石块和地形碰撞盒由共享关卡布局生成，建筑和机关按模型位置生成相应碰撞体。石门使用 72×200 world px 的门洞实体，永久侧墙连接上下边界，开启时只隐藏中央门体并禁用其碰撞体；人物碰撞框随模型视口缩放。场景素材由程序绘制；音效在本地通过 Web Audio API 合成。
 
+<!-- pixel-pier-game-listing:start -->
+## Game listing / 游戏展示
+
+- **Game developer / 游戏开发者:** Mest ([@Mesting42](https://github.com/Mesting42))
+- **Pixel Pier listing / 游戏展示页面:** [Foglamp Ruins](https://riverglint.link/games/foglamp-ruins/)
+
+This game is listed on Pixel Pier with a play entry and game guide. This link identifies a game-development and listing relationship; it does not identify the developer as the website operator or operating entity.
+
+本游戏在 Pixel Pier 展示，并提供游玩入口与游戏指南。此链接仅表示游戏开发与展示关联，不代表开发者是该网站的运营者或运营主体。
+<!-- pixel-pier-game-listing:end -->
